@@ -5,11 +5,15 @@
 }
 
 .main{
-    width: 120%;
+    width: 100%;
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(jp5.jpg);
     background-position: center;
     background-size: cover;
-    height: 120vh;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 .navbar{
